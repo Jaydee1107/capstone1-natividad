@@ -19,13 +19,13 @@
 }
 
 
-.cusSticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 999;
-
+.sSticky {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 999;
 }
+
 
 .media-icons {
 	display: flex;
@@ -88,4 +88,6 @@ footer .footer-copyright {
 .display-3 {
 	color: white;
 }
+
+
 }
