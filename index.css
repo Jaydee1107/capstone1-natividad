@@ -9,12 +9,28 @@
 
 	}
 .jumbotron {
-    background: url("hello.png") no-repeat center;
+ 	 background-image: url("image.jpg");
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+
+
+
+.display-3{
+	margin-top: -50px;
 }
 .btn-primary {
     background-color: #c60063;
     border-color: #c60063;
 }
+
 
 }
 
@@ -61,6 +77,10 @@ body .about_me p {
 	color: white;
 }	
 
+/*.dev1 {
+	margin-bottom: 200px;
+}*/
+
 footer {
 	background-color: #4B515D;
 	color: white;
@@ -77,6 +97,10 @@ footer .footer-copyright {
 #contact_us {
 	color: white;
 }
+.form-control {
+  width: 100%;
+}
+
 
 #about_me {
 	color: white;
